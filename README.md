@@ -1,29 +1,35 @@
-Chanindu Imanjith — Personal Portfolio Website
+# 🌐 Chanindu Imanjith — Personal Portfolio Website
 
 A modern, responsive personal portfolio website built with HTML, CSS, and JavaScript. Features smooth animations, particle effects, and a clean dark theme.
 
+---
 
-🔗 Live Demo
+## 🔗 Live Demo
 
 👉 [https://chanindu-imanjith.netlify.app](https://chanindu-imanjith.netlify.app)
 
+---
 
- 📸 Preview
+## 📸 Preview
+
 
 ![Portfolio Preview](images/portfolio.png)
 
 
- 🛠️ Built With
+---
 
-- HTML5 — Semantic markup
-- CSS3 — Custom animations, transitions, flexbox & grid
-- JavaScript — Vanilla JS for interactions and animations
-- Google Fonts — Syne & DM Sans
-- Formspree — Contact form email service
-- Netlify — Hosting & deployment
+## 🛠️ Built With
 
+- **HTML5** — Semantic markup
+- **CSS3** — Custom animations, transitions, flexbox & grid
+- **JavaScript** — Vanilla JS for interactions and animations
+- **Google Fonts** — Syne & DM Sans
+- **Formspree** — Contact form email service
+- **Netlify** — Hosting & deployment
 
- ✨ Features
+---
+
+## ✨ Features
 
 - 🎨 Dark theme with red accent color
 - 🌟 Animated particle background
@@ -36,17 +42,34 @@ A modern, responsive personal portfolio website built with HTML, CSS, and JavaSc
 - 📬 Working contact form with email notifications
 - 📄 CV download button
 
+  ---
+  
+## 📬 Contact
 
- 📁 Project Structure
+- 📧 Email — chanindu.imanjith@gmail.com
+- 💼 LinkedIn — [Chanindu Imanjith](https://www.linkedin.com/in/chanindu-imanjith-72814431b/)
+- 🐙 GitHub — [@ChaninduImanjith](https://github.com/ChaninduImanjith)
+- ✍️ Medium — [@chanindu.imanjith](https://medium.com/@chanindu.imanjith)
 
+---
 
-PORTFOLIO/
-├── images/
-│   ├── portfolio_dp.png
-│   └── portfolio.png
-├── cv.pdf
-├── index.html
-├── README.md
-├── script.js
-└── style.css
+## 🏃 Run Locally
 
+No installation needed. Just clone and open:
+```bash
+git clone https://github.com/ChaninduImanjith/portfolio.git
+cd portfolio
+```
+
+Then open `index.html` in your browser — that's it!
+
+---
+## 📤 Deployment
+
+This site is deployed on **Netlify** with automatic deployments from GitHub.
+
+Every push to the `main` branch automatically triggers a new deployment.
+
+---
+
+⭐ If you like this portfolio, feel free to star the repository!
