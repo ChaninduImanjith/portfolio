@@ -623,9 +623,7 @@
 
     .btn-cv:active { transform: translateY(-1px); }
 
-    /* ══════════════════════════════════════════
-       PROJECT COMPLETED BADGE
-    ══════════════════════════════════════════ */
+  
     .project-badge {
       position: absolute;
       top: 14px;
@@ -669,6 +667,44 @@
       transform: translateY(-2px) scale(1.06);
       border-color: rgba(34, 197, 94, 0.7);
       box-shadow: 0 6px 22px rgba(34, 197, 94, 0.28), inset 0 1px 0 rgba(255,255,255,0.08);
+    }
+
+    .project-img {
+      height: 200px;
+      position: relative;
+      overflow: hidden;
+      background: var(--surface);
+      display: block;
+      border-radius: 16px 16px 0 0;
+    }
+ 
+    .project-preview-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top left;
+      display: block;
+      transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+              filter 0.4s ease;
+       filter: brightness(0.95);
+    }
+ 
+    .project-card:hover .project-preview-img {
+      transform: scale(1.06) translateY(-4px);
+      filter: brightness(1.08) contrast(1.02);
+    }
+
+    .project-img::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+      to bottom,
+      transparent 45%,
+      var(--card) 100%
+    );
+      pointer-events: none;
+      z-index: 1;
     }
 
     /* Entrance pop animation */
