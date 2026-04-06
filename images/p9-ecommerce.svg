@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320">
+  <defs>
+    <linearGradient id="bg9" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0a1e"/>
+      <stop offset="100%" style="stop-color:#1a0f2e"/>
+    </linearGradient>
+    <linearGradient id="btn9" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#6d28d9"/>
+    </linearGradient>
+    <linearGradient id="card9a" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed22"/>
+      <stop offset="100%" style="stop-color:#0f0a1e"/>
+    </linearGradient>
+    <linearGradient id="card9b" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ec489922"/>
+      <stop offset="100%" style="stop-color:#0f0a1e"/>
+    </linearGradient>
+    <linearGradient id="card9c" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b98122"/>
+      <stop offset="100%" style="stop-color:#0f0a1e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="320" fill="url(#bg9)"/>
+
+  <!-- Glow orbs -->
+  <circle cx="100" cy="80" r="80" fill="#7c3aed" opacity="0.06" filter="blur(20px)"/>
+  <circle cx="500" cy="240" r="80" fill="#ec4899" opacity="0.06" filter="blur(20px)"/>
+
+  <!-- Navbar -->
+  <rect x="0" y="0" width="600" height="44" fill="#0d0a1e"/>
+  <rect x="0" y="44" width="600" height="1" fill="#2d1f4e"/>
+  <text x="24" y="28" font-family="Arial" font-size="15" fill="#a78bfa" font-weight="bold">🛒 ShopVerse</text>
+  <text x="200" y="27" font-family="Arial" font-size="9" fill="#7c6aaa">Home</text>
+  <text x="248" y="27" font-family="Arial" font-size="9" fill="#a78bfa">Products</text>
+  <rect x="243" y="38" width="48" height="2" fill="#7c3aed" rx="1"/>
+  <text x="320" y="27" font-family="Arial" font-size="9" fill="#7c6aaa">Cart</text>
+  <text x="360" y="27" font-family="Arial" font-size="9" fill="#7c6aaa">Orders</text>
+  <text x="410" y="27" font-family="Arial" font-size="9" fill="#7c6aaa">About</text>
+
+  <!-- Cart icon -->
+  <text x="515" y="28" font-family="Arial" font-size="14" fill="#a78bfa">🛒</text>
+  <circle cx="528" cy="18" r="6" fill="#7c3aed"/>
+  <text x="528" y="22" font-family="Arial" font-size="7" fill="white" text-anchor="middle">3</text>
+  <!-- User -->
+  <circle cx="554" cy="22" r="12" fill="#2d1f4e"/>
+  <text x="554" y="26" font-family="Arial" font-size="9" fill="#a78bfa" text-anchor="middle">U</text>
+
+  <!-- Search bar -->
+  <rect x="20" y="54" width="560" height="26" rx="5" fill="#150f2a" stroke="#2d1f4e" stroke-width="1"/>
+  <text x="38" y="71" font-family="Arial" font-size="9" fill="#5c4d8a">🔍  Search products, brands...</text>
+  <rect x="510" y="56" width="62" height="22" rx="4" fill="url(#btn9)"/>
+  <text x="541" y="71" font-family="Arial" font-size="8" fill="white" text-anchor="middle">Search</text>
+
+  <!-- Category chips -->
+  <rect x="20" y="88" width="60" height="16" rx="8" fill="#7c3aed22" stroke="#7c3aed" stroke-width="1"/>
+  <text x="50" y="100" font-family="Arial" font-size="7" fill="#a78bfa" text-anchor="middle">All Items</text>
+  <rect x="88" y="88" width="68" height="16" rx="8" fill="#2d1f4e" stroke="#2d1f4e" stroke-width="1"/>
+  <text x="122" y="100" font-family="Arial" font-size="7" fill="#7c6aaa" text-anchor="middle">Electronics</text>
+  <rect x="164" y="88" width="55" height="16" rx="8" fill="#2d1f4e" stroke="#2d1f4e" stroke-width="1"/>
+  <text x="191" y="100" font-family="Arial" font-size="7" fill="#7c6aaa" text-anchor="middle">Clothing</text>
+  <rect x="227" y="88" width="50" height="16" rx="8" fill="#2d1f4e" stroke="#2d1f4e" stroke-width="1"/>
+  <text x="252" y="100" font-family="Arial" font-size="7" fill="#7c6aaa" text-anchor="middle">Books</text>
+  <rect x="285" y="88" width="52" height="16" rx="8" fill="#2d1f4e" stroke="#2d1f4e" stroke-width="1"/>
+  <text x="311" y="100" font-family="Arial" font-size="7" fill="#7c6aaa" text-anchor="middle">Gadgets</text>
+
+  <!-- Product cards row -->
+  <!-- Card 1 -->
+  <rect x="20" y="113" width="176" height="190" rx="8" fill="#150f2a" stroke="#2d1f4e" stroke-width="1"/>
+  <rect x="20" y="113" width="176" height="110" rx="8" fill="url(#card9a)"/>
+  <rect x="20" y="201" width="176" height="22" fill="#150f2a"/>
+  <text x="108" y="168" font-family="Arial" font-size="40" text-anchor="middle">💻</text>
+  <rect x="28" y="228" width="100" height="8" rx="2" fill="#5c4d8a"/>
+  <rect x="28" y="240" width="70" height="6" rx="2" fill="#3d2d6a"/>
+  <text x="28" y="262" font-family="Arial" font-size="11" fill="#a78bfa" font-weight="bold">$899.99</text>
+  <rect x="28" y="270" width="100" height="6" rx="2" fill="#3d2d6a"/>
+  <rect x="30" y="285" width="74" height="14" rx="4" fill="url(#btn9)"/>
+  <text x="67" y="295" font-family="Arial" font-size="7" fill="white" text-anchor="middle">Add to Cart</text>
+  <text x="170" y="295" font-family="Arial" font-size="10" fill="#a78bfa">♡</text>
+
+  <!-- Card 2 -->
+  <rect x="208" y="113" width="176" height="190" rx="8" fill="#150f2a" stroke="#2d1f4e" stroke-width="1"/>
+  <rect x="208" y="113" width="176" height="110" rx="8" fill="url(#card9b)"/>
+  <rect x="208" y="201" width="176" height="22" fill="#150f2a"/>
+  <text x="296" y="168" font-family="Arial" font-size="40" text-anchor="middle">👟</text>
+  <rect x="216" y="228" width="100" height="8" rx="2" fill="#5c4d8a"/>
+  <rect x="216" y="240" width="70" height="6" rx="2" fill="#3d2d6a"/>
+  <text x="216" y="262" font-family="Arial" font-size="11" fill="#ec4899" font-weight="bold">$149.00</text>
+  <rect x="216" y="270" width="100" height="6" rx="2" fill="#3d2d6a"/>
+  <rect x="218" y="285" width="74" height="14" rx="4" fill="#ec489933" stroke="#ec4899" stroke-width="1"/>
+  <text x="255" y="295" font-family="Arial" font-size="7" fill="#ec4899" text-anchor="middle">Add to Cart</text>
+  <text x="358" y="295" font-family="Arial" font-size="10" fill="#ec4899">♡</text>
+  <!-- Badge -->
+  <rect x="338" y="120" width="38" height="14" rx="7" fill="#ec4899"/>
+  <text x="357" y="130" font-family="Arial" font-size="7" fill="white" text-anchor="middle">NEW</text>
+
+  <!-- Card 3 -->
+  <rect x="396" y="113" width="176" height="190" rx="8" fill="#150f2a" stroke="#2d1f4e" stroke-width="1"/>
+  <rect x="396" y="113" width="176" height="110" rx="8" fill="url(#card9c)"/>
+  <rect x="396" y="201" width="176" height="22" fill="#150f2a"/>
+  <text x="484" y="168" font-family="Arial" font-size="40" text-anchor="middle">📱</text>
+  <rect x="404" y="228" width="100" height="8" rx="2" fill="#5c4d8a"/>
+  <rect x="404" y="240" width="70" height="6" rx="2" fill="#3d2d6a"/>
+  <text x="404" y="262" font-family="Arial" font-size="11" fill="#10b981" font-weight="bold">$1,199.00</text>
+  <rect x="404" y="270" width="100" height="6" rx="2" fill="#3d2d6a"/>
+  <rect x="406" y="285" width="74" height="14" rx="4" fill="#10b98133" stroke="#10b981" stroke-width="1"/>
+  <text x="443" y="295" font-family="Arial" font-size="7" fill="#10b981" text-anchor="middle">Add to Cart</text>
+  <text x="546" y="295" font-family="Arial" font-size="10" fill="#10b981">♡</text>
+  <!-- Sale badge -->
+  <rect x="524" y="120" width="40" height="14" rx="7" fill="#10b981"/>
+  <text x="544" y="130" font-family="Arial" font-size="7" fill="white" text-anchor="middle">SALE</text>
+</svg>

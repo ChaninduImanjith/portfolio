@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1b2a"/>
+      <stop offset="100%" style="stop-color:#1b2838"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f59e0b"/>
+      <stop offset="100%" style="stop-color:#d97706"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="320" fill="url(#bg2)"/>
+
+  <!-- Decorative bookshelf lines -->
+  <rect x="0" y="300" width="600" height="3" fill="#f59e0b" opacity="0.4"/>
+  <rect x="0" y="295" width="600" height="1" fill="#f59e0b" opacity="0.15"/>
+
+  <!-- Window chrome -->
+  <rect x="30" y="24" width="540" height="272" rx="8" fill="#0f1923" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="30" y="24" width="540" height="36" rx="8" fill="#1a2d42"/>
+  <rect x="30" y="48" width="540" height="12" fill="#1a2d42"/>
+  <!-- Window dots -->
+  <circle cx="50" cy="42" r="5" fill="#ff5f57"/>
+  <circle cx="66" cy="42" r="5" fill="#febc2e"/>
+  <circle cx="82" cy="42" r="5" fill="#28c840"/>
+  <!-- Title bar -->
+  <rect x="200" y="35" width="200" height="14" rx="3" fill="#0d1b2a"/>
+  <text x="300" y="46" font-family="Arial" font-size="9" fill="#8899aa" text-anchor="middle">LibraryPro Management System</text>
+
+  <!-- Sidebar -->
+  <rect x="30" y="60" width="130" height="236" fill="#111e2c"/>
+  <rect x="160" y="60" width="1" height="236" fill="#1e3a5f"/>
+
+  <!-- Sidebar nav -->
+  <rect x="40" y="75" width="110" height="28" rx="4" fill="#1e3a5f"/>
+  <rect x="44" y="83" width="8" height="8" rx="1" fill="#f59e0b"/>
+  <rect x="58" y="85" width="55" height="5" rx="2" fill="#7ba3c8"/>
+  <rect x="58" y="93" width="35" height="3" rx="1" fill="#3d5a7a"/>
+
+  <rect x="44" y="114" width="8" height="8" rx="1" fill="#3d5a7a"/>
+  <rect x="58" y="116" width="50" height="4" rx="2" fill="#3d5a7a"/>
+  <rect x="44" y="134" width="8" height="8" rx="1" fill="#3d5a7a"/>
+  <rect x="58" y="136" width="55" height="4" rx="2" fill="#3d5a7a"/>
+  <rect x="44" y="154" width="8" height="8" rx="1" fill="#3d5a7a"/>
+  <rect x="58" y="156" width="45" height="4" rx="2" fill="#3d5a7a"/>
+  <rect x="44" y="174" width="8" height="8" rx="1" fill="#3d5a7a"/>
+  <rect x="58" y="176" width="50" height="4" rx="2" fill="#3d5a7a"/>
+
+  <rect x="40" y="205" width="110" height="1" fill="#1e3a5f"/>
+  <rect x="44" y="215" width="8" height="8" rx="1" fill="#3d5a7a"/>
+  <rect x="58" y="217" width="40" height="4" rx="2" fill="#3d5a7a"/>
+
+  <!-- Main content -->
+  <!-- Stats row -->
+  <rect x="172" y="70" width="110" height="55" rx="5" fill="#0d1b2a" stroke="#1e3a5f" stroke-width="1"/>
+  <text x="227" y="90" font-family="Arial" font-size="18" fill="#f59e0b" text-anchor="middle" font-weight="bold">2,847</text>
+  <rect x="185" y="95" width="85" height="4" rx="2" fill="#3d5a7a"/>
+  <rect x="195" y="103" width="65" height="3" rx="1" fill="#2a3d52"/>
+
+  <rect x="292" y="70" width="110" height="55" rx="5" fill="#0d1b2a" stroke="#1e3a5f" stroke-width="1"/>
+  <text x="347" y="90" font-family="Arial" font-size="18" fill="#10b981" text-anchor="middle" font-weight="bold">342</text>
+  <rect x="305" y="95" width="85" height="4" rx="2" fill="#3d5a7a"/>
+  <rect x="315" y="103" width="65" height="3" rx="1" fill="#2a3d52"/>
+
+  <rect x="412" y="70" width="110" height="55" rx="5" fill="#0d1b2a" stroke="#1e3a5f" stroke-width="1"/>
+  <text x="467" y="90" font-family="Arial" font-size="18" fill="#ef4444" text-anchor="middle" font-weight="bold">28</text>
+  <rect x="425" y="95" width="85" height="4" rx="2" fill="#3d5a7a"/>
+  <rect x="435" y="103" width="65" height="3" rx="1" fill="#2a3d52"/>
+
+  <!-- Book table -->
+  <rect x="172" y="136" width="350" height="148" rx="5" fill="#0d1b2a" stroke="#1e3a5f" stroke-width="1"/>
+  <!-- Table header -->
+  <rect x="172" y="136" width="350" height="24" rx="5" fill="#1a2d42"/>
+  <rect x="172" y="148" width="350" height="12" fill="#1a2d42"/>
+  <rect x="182" y="143" width="40" height="4" rx="2" fill="#4a6a8a"/>
+  <rect x="242" y="143" width="80" height="4" rx="2" fill="#4a6a8a"/>
+  <rect x="352" y="143" width="50" height="4" rx="2" fill="#4a6a8a"/>
+  <rect x="432" y="143" width="40" height="4" rx="2" fill="#4a6a8a"/>
+
+  <!-- Table rows -->
+  <!-- Row spine colors -->
+  <rect x="172" y="160" width="3" height="18" fill="#f59e0b"/>
+  <rect x="182" y="164" width="25" height="4" rx="2" fill="#5a7a9a"/>
+  <rect x="242" y="164" width="80" height="4" rx="2" fill="#7ba3c8"/>
+  <rect x="352" y="164" width="50" height="4" rx="2" fill="#5a7a9a"/>
+  <rect x="432" y="162" width="50" height="8" rx="3" fill="#10b981" opacity="0.2"/>
+  <rect x="437" y="165" width="35" height="4" rx="2" fill="#10b981"/>
+
+  <rect x="172" y="178" width="3" height="18" fill="#3b82f6"/>
+  <rect x="182" y="182" width="25" height="4" rx="2" fill="#5a7a9a"/>
+  <rect x="242" y="182" width="65" height="4" rx="2" fill="#7ba3c8"/>
+  <rect x="352" y="182" width="50" height="4" rx="2" fill="#5a7a9a"/>
+  <rect x="432" y="180" width="50" height="8" rx="3" fill="#f59e0b" opacity="0.2"/>
+  <rect x="437" y="183" width="35" height="4" rx="2" fill="#f59e0b"/>
+
+  <rect x="172" y="196" width="3" height="18" fill="#10b981"/>
+  <rect x="182" y="200" width="25" height="4" rx="2" fill="#5a7a9a"/>
+  <rect x="242" y="200" width="90" height="4" rx="2" fill="#7ba3c8"/>
+  <rect x="352" y="200" width="50" height="4" rx="2" fill="#5a7a9a"/>
+  <rect x="432" y="198" width="50" height="8" rx="3" fill="#10b981" opacity="0.2"/>
+  <rect x="437" y="201" width="35" height="4" rx="2" fill="#10b981"/>
+
+  <rect x="172" y="214" width="3" height="18" fill="#ef4444"/>
+  <rect x="182" y="218" width="25" height="4" rx="2" fill="#5a7a9a"/>
+  <rect x="242" y="218" width="75" height="4" rx="2" fill="#7ba3c8"/>
+  <rect x="352" y="218" width="50" height="4" rx="2" fill="#5a7a9a"/>
+  <rect x="432" y="216" width="50" height="8" rx="3" fill="#ef4444" opacity="0.2"/>
+  <rect x="437" y="219" width="35" height="4" rx="2" fill="#ef4444"/>
+
+  <rect x="172" y="232" width="3" height="18" fill="#8b5cf6"/>
+  <rect x="182" y="236" width="25" height="4" rx="2" fill="#5a7a9a"/>
+  <rect x="242" y="236" width="85" height="4" rx="2" fill="#7ba3c8"/>
+  <rect x="352" y="236" width="50" height="4" rx="2" fill="#5a7a9a"/>
+  <rect x="432" y="234" width="50" height="8" rx="3" fill="#10b981" opacity="0.2"/>
+  <rect x="437" y="237" width="35" height="4" rx="2" fill="#10b981"/>
+
+  <rect x="172" y="250" width="3" height="18" fill="#06b6d4"/>
+  <rect x="182" y="254" width="25" height="4" rx="2" fill="#5a7a9a"/>
+  <rect x="242" y="254" width="70" height="4" rx="2" fill="#7ba3c8"/>
+  <rect x="352" y="254" width="50" height="4" rx="2" fill="#5a7a9a"/>
+  <rect x="432" y="252" width="50" height="8" rx="3" fill="#f59e0b" opacity="0.2"/>
+  <rect x="437" y="255" width="35" height="4" rx="2" fill="#f59e0b"/>
+
+  <!-- Java badge -->
+  <rect x="34" y="268" width="40" height="16" rx="3" fill="#f59e0b" opacity="0.15" stroke="#f59e0b" stroke-width="0.5"/>
+  <text x="54" y="279" font-family="Arial" font-size="7" fill="#f59e0b" text-anchor="middle" font-weight="bold">Java</text>
+</svg>

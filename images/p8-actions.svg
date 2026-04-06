@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320">
+  <defs>
+    <linearGradient id="bg8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#161b22"/>
+    </linearGradient>
+    <filter id="glow8">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="600" height="320" fill="url(#bg8)"/>
+
+  <!-- GitHub header -->
+  <rect x="0" y="0" width="600" height="44" fill="#161b22" stroke="#30363d" stroke-width="0"/>
+  <rect x="0" y="44" width="600" height="1" fill="#30363d"/>
+  <circle cx="22" cy="22" r="12" fill="#f0f6fc"/>
+  <text x="22" y="27" font-family="Arial" font-size="14" fill="#0d1117" text-anchor="middle">⌥</text>
+  <rect x="44" y="14" width="90" height="16" rx="3" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <text x="89" y="25" font-family="monospace" font-size="7" fill="#8b949e" text-anchor="middle">ChaninduImanjith / …</text>
+  <!-- Nav -->
+  <text x="240" y="26" font-family="Arial" font-size="9" fill="#8b949e">⌚ Actions</text>
+  <rect x="234" y="38" width="56" height="2" fill="#f9826c" rx="1"/>
+
+  <!-- Workflow list sidebar -->
+  <rect x="0" y="45" width="185" height="275" fill="#0d1117"/>
+  <rect x="185" y="45" width="1" height="275" fill="#21262d"/>
+  <text x="16" y="70" font-family="Arial" font-size="9" fill="#f0f6fc" font-weight="bold">Workflows</text>
+  <rect x="10" y="78" width="165" height="22" rx="4" fill="#1f6feb22" stroke="#1f6feb" stroke-width="1"/>
+  <text x="22" y="93" font-family="monospace" font-size="8" fill="#58a6ff">🚀 CI/CD Pipeline</text>
+  <text x="22" y="116" font-family="monospace" font-size="8" fill="#8b949e">🐳 Docker Build</text>
+  <text x="22" y="136" font-family="monospace" font-size="8" fill="#8b949e">☁️ AWS Deploy</text>
+  <text x="22" y="156" font-family="monospace" font-size="8" fill="#8b949e">🧪 Unit Tests</text>
+  <text x="22" y="176" font-family="monospace" font-size="8" fill="#8b949e">🔒 Security Scan</text>
+
+  <!-- Main Actions area -->
+  <!-- Run header -->
+  <rect x="195" y="52" width="394" height="30" fill="#0d1117"/>
+  <text x="210" y="68" font-family="Arial" font-size="11" fill="#f0f6fc" font-weight="bold">CI/CD Pipeline</text>
+  <rect x="480" y="55" width="100" height="20" rx="5" fill="#238636"/>
+  <text x="530" y="69" font-family="Arial" font-size="8" fill="white" text-anchor="middle">Run workflow ▼</text>
+
+  <!-- Run entries -->
+  <!-- Run 1 - Success -->
+  <rect x="195" y="90" width="394" height="52" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+  <circle cx="215" cy="116" r="9" fill="#0e4429"/>
+  <text x="215" y="120" font-family="Arial" font-size="10" fill="#28c840" text-anchor="middle">✓</text>
+  <text x="234" y="108" font-family="Arial" font-size="9" fill="#f0f6fc" font-weight="bold">Fix: update Docker base image</text>
+  <text x="234" y="120" font-family="monospace" font-size="7" fill="#8b949e">main · #47 · triggered by push · 3 min ago</text>
+  <rect x="234" y="126" width="40" height="10" rx="5" fill="#0e4429"/>
+  <text x="254" y="134" font-family="Arial" font-size="7" fill="#3fb950" text-anchor="middle">success</text>
+  <text x="520" y="120" font-family="monospace" font-size="8" fill="#8b949e">2m 34s</text>
+  <rect x="195" y="142" width="394" height="1" fill="#21262d"/>
+
+  <!-- Run 2 - Success -->
+  <rect x="195" y="143" width="394" height="52" fill="#0d1117" stroke="#21262d" stroke-width="0"/>
+  <circle cx="215" cy="169" r="9" fill="#0e4429"/>
+  <text x="215" y="173" font-family="Arial" font-size="10" fill="#28c840" text-anchor="middle">✓</text>
+  <text x="234" y="161" font-family="Arial" font-size="9" fill="#f0f6fc" font-weight="bold">feat: add health check endpoint</text>
+  <text x="234" y="173" font-family="monospace" font-size="7" fill="#8b949e">main · #46 · triggered by push · 1 hr ago</text>
+  <rect x="234" y="179" width="40" height="10" rx="5" fill="#0e4429"/>
+  <text x="254" y="187" font-family="Arial" font-size="7" fill="#3fb950" text-anchor="middle">success</text>
+  <text x="520" y="173" font-family="monospace" font-size="8" fill="#8b949e">1m 58s</text>
+  <rect x="195" y="195" width="394" height="1" fill="#21262d"/>
+
+  <!-- Run 3 - Failed -->
+  <rect x="195" y="196" width="394" height="52" fill="#0d1117"/>
+  <circle cx="215" cy="222" r="9" fill="#3d1a1a"/>
+  <text x="215" y="226" font-family="Arial" font-size="10" fill="#f85149" text-anchor="middle">✗</text>
+  <text x="234" y="214" font-family="Arial" font-size="9" fill="#f0f6fc" font-weight="bold">refactor: migrate to ECR registry</text>
+  <text x="234" y="226" font-family="monospace" font-size="7" fill="#8b949e">main · #45 · triggered by push · 3 hrs ago</text>
+  <rect x="234" y="232" width="36" height="10" rx="5" fill="#3d1a1a"/>
+  <text x="252" y="240" font-family="Arial" font-size="7" fill="#f85149" text-anchor="middle">failure</text>
+  <text x="520" y="226" font-family="monospace" font-size="8" fill="#8b949e">0m 47s</text>
+  <rect x="195" y="248" width="394" height="1" fill="#21262d"/>
+
+  <!-- Run 4 - Running -->
+  <rect x="195" y="249" width="394" height="52" fill="#0d1117"/>
+  <!-- animated looking spinner -->
+  <circle cx="215" cy="275" r="9" fill="#0c1e3d"/>
+  <circle cx="215" cy="275" r="7" fill="none" stroke="#1f6feb" stroke-width="2" stroke-dasharray="22 12"/>
+  <text x="234" y="267" font-family="Arial" font-size="9" fill="#f0f6fc" font-weight="bold">chore: update AWS credentials</text>
+  <text x="234" y="279" font-family="monospace" font-size="7" fill="#8b949e">main · #48 · triggered just now</text>
+  <rect x="234" y="285" width="60" height="10" rx="5" fill="#0c1e3d"/>
+  <text x="264" y="293" font-family="Arial" font-size="7" fill="#58a6ff" text-anchor="middle">in progress</text>
+  <text x="520" y="279" font-family="monospace" font-size="8" fill="#8b949e">running...</text>
+
+  <!-- YAML snippet floating -->
+  <rect x="198" y="306" width="390" height="12" fill="#161b22"/>
+  <text x="210" y="316" font-family="monospace" font-size="7" fill="#4a7ab5">on: [push] → build → docker-push → aws-deploy → notify</text>
+</svg>

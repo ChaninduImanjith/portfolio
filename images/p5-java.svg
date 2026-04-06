@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a0a00"/>
+      <stop offset="100%" style="stop-color:#2d1200"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="320" fill="url(#bg5)"/>
+  <!-- subtle dot pattern -->
+  <pattern id="dots5" width="20" height="20" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="0.8" fill="#ffffff06"/>
+  </pattern>
+  <rect width="600" height="320" fill="url(#dots5)"/>
+
+  <!-- IDE window -->
+  <rect x="18" y="16" width="564" height="288" rx="8" fill="#1e1e1e" stroke="#3c3c3c" stroke-width="1"/>
+
+  <!-- Title bar -->
+  <rect x="18" y="16" width="564" height="30" rx="8" fill="#3c3c3c"/>
+  <rect x="18" y="34" width="564" height="12" fill="#3c3c3c"/>
+  <circle cx="36" cy="31" r="5" fill="#ff5f57"/>
+  <circle cx="52" cy="31" r="5" fill="#febc2e"/>
+  <circle cx="68" cy="31" r="5" fill="#28c840"/>
+  <text x="300" y="35" font-family="monospace" font-size="9" fill="#9d9d9d" text-anchor="middle">Main.java — Java Mini Programs</text>
+
+  <!-- Tab bar -->
+  <rect x="18" y="46" width="564" height="24" fill="#252526"/>
+  <rect x="22" y="48" width="80" height="20" rx="3" fill="#1e1e1e"/>
+  <text x="62" y="62" font-family="monospace" font-size="8" fill="#d4d4d4" text-anchor="middle">☕ Main.java</text>
+  <rect x="106" y="50" width="75" height="16" rx="2" fill="none"/>
+  <text x="143" y="62" font-family="monospace" font-size="8" fill="#6a6a6a" text-anchor="middle">BubbleSort.java</text>
+  <rect x="185" y="50" width="70" height="16" rx="2" fill="none"/>
+  <text x="220" y="62" font-family="monospace" font-size="8" fill="#6a6a6a" text-anchor="middle">LinkedList.java</text>
+
+  <!-- Editor area -->
+  <!-- Line numbers -->
+  <rect x="18" y="70" width="38" height="234" fill="#1e1e1e"/>
+  <rect x="56" y="70" width="1" height="234" fill="#333"/>
+
+  <!-- Line number text -->
+  <text x="48" y="86" font-family="monospace" font-size="8" fill="#858585" text-anchor="end">1</text>
+  <text x="48" y="100" font-family="monospace" font-size="8" fill="#858585" text-anchor="end">2</text>
+  <text x="48" y="114" font-family="monospace" font-size="8" fill="#858585" text-anchor="end">3</text>
+  <text x="48" y="128" font-family="monospace" font-size="8" fill="#858585" text-anchor="end">4</text>
+  <text x="48" y="142" font-family="monospace" font-size="8" fill="#858585" text-anchor="end">5</text>
+  <text x="48" y="156" font-family="monospace" font-size="8" fill="#858585" text-anchor="end">6</text>
+  <text x="48" y="170" font-family="monospace" font-size="8" fill="#858585" text-anchor="end">7</text>
+  <text x="48" y="184" font-family="monospace" font-size="8" fill="#858585" text-anchor="end">8</text>
+  <text x="48" y="198" font-family="monospace" font-size="8" fill="#858585" text-anchor="end">9</text>
+  <text x="48" y="212" font-family="monospace" font-size="8" fill="#858585" text-anchor="end">10</text>
+  <text x="48" y="226" font-family="monospace" font-size="8" fill="#858585" text-anchor="end">11</text>
+  <text x="48" y="240" font-family="monospace" font-size="8" fill="#858585" text-anchor="end">12</text>
+  <text x="48" y="254" font-family="monospace" font-size="8" fill="#858585" text-anchor="end">13</text>
+  <text x="48" y="268" font-family="monospace" font-size="8" fill="#858585" text-anchor="end">14</text>
+  <text x="48" y="282" font-family="monospace" font-size="8" fill="#858585" text-anchor="end">15</text>
+
+  <!-- Code content - Java syntax highlighted -->
+  <text x="64" y="86" font-family="monospace" font-size="9" fill="#569cd6">public class </text>
+  <text x="152" y="86" font-family="monospace" font-size="9" fill="#4ec9b0">Main </text>
+  <text x="185" y="86" font-family="monospace" font-size="9" fill="#d4d4d4">{</text>
+
+  <text x="64" y="100" font-family="monospace" font-size="9" fill="#6a9955">    // Java OOP — Fibonacci + Sorting</text>
+
+  <text x="64" y="114" font-family="monospace" font-size="9" fill="#569cd6">    public static </text>
+  <text x="193" y="114" font-family="monospace" font-size="9" fill="#569cd6">void </text>
+  <text x="224" y="114" font-family="monospace" font-size="9" fill="#dcdcaa">main</text>
+  <text x="261" y="114" font-family="monospace" font-size="9" fill="#d4d4d4">(String[] </text>
+  <text x="328" y="114" font-family="monospace" font-size="9" fill="#9cdcfe">args</text>
+  <text x="358" y="114" font-family="monospace" font-size="9" fill="#d4d4d4">) {</text>
+
+  <text x="64" y="128" font-family="monospace" font-size="9" fill="#d4d4d4">        </text>
+  <text x="84" y="128" font-family="monospace" font-size="9" fill="#569cd6">int</text>
+  <text x="104" y="128" font-family="monospace" font-size="9" fill="#9cdcfe">[] arr</text>
+  <text x="148" y="128" font-family="monospace" font-size="9" fill="#d4d4d4"> = {</text>
+  <text x="176" y="128" font-family="monospace" font-size="9" fill="#b5cea8">5, 3, 8, 1, 9, 2, 7</text>
+  <text x="334" y="128" font-family="monospace" font-size="9" fill="#d4d4d4">};</text>
+
+  <text x="64" y="142" font-family="monospace" font-size="9" fill="#dcdcaa">        bubbleSort</text>
+  <text x="185" y="142" font-family="monospace" font-size="9" fill="#d4d4d4">(arr);</text>
+
+  <text x="64" y="156" font-family="monospace" font-size="9" fill="#4ec9b0">        System</text>
+  <text x="141" y="156" font-family="monospace" font-size="9" fill="#d4d4d4">.out.</text>
+  <text x="175" y="156" font-family="monospace" font-size="9" fill="#dcdcaa">println</text>
+  <text x="221" y="156" font-family="monospace" font-size="9" fill="#d4d4d4">(</text>
+  <text x="230" y="156" font-family="monospace" font-size="9" fill="#ce9178">"Sorted!"</text>
+  <text x="292" y="156" font-family="monospace" font-size="9" fill="#d4d4d4">);</text>
+
+  <text x="64" y="170" font-family="monospace" font-size="9" fill="#d4d4d4">    }</text>
+
+  <text x="64" y="184" font-family="monospace" font-size="9" fill="#569cd6">    static </text>
+  <text x="130" y="184" font-family="monospace" font-size="9" fill="#569cd6">void </text>
+  <text x="162" y="184" font-family="monospace" font-size="9" fill="#dcdcaa">bubbleSort</text>
+  <text x="247" y="184" font-family="monospace" font-size="9" fill="#d4d4d4">(</text>
+  <text x="255" y="184" font-family="monospace" font-size="9" fill="#569cd6">int</text>
+  <text x="275" y="184" font-family="monospace" font-size="9" fill="#9cdcfe">[] a</text>
+  <text x="306" y="184" font-family="monospace" font-size="9" fill="#d4d4d4">) {</text>
+
+  <text x="64" y="198" font-family="monospace" font-size="9" fill="#569cd6">        for </text>
+  <text x="110" y="198" font-family="monospace" font-size="9" fill="#d4d4d4">(</text>
+  <text x="118" y="198" font-family="monospace" font-size="9" fill="#569cd6">int </text>
+  <text x="142" y="198" font-family="monospace" font-size="9" fill="#9cdcfe">i</text>
+  <text x="150" y="198" font-family="monospace" font-size="9" fill="#d4d4d4">=</text>
+  <text x="158" y="198" font-family="monospace" font-size="9" fill="#b5cea8">0</text>
+  <text x="165" y="198" font-family="monospace" font-size="9" fill="#d4d4d4">; i&lt;a.length-</text>
+  <text x="253" y="198" font-family="monospace" font-size="9" fill="#b5cea8">1</text>
+  <text x="260" y="198" font-family="monospace" font-size="9" fill="#d4d4d4">; i++) {</text>
+
+  <text x="64" y="212" font-family="monospace" font-size="9" fill="#569cd6">            for </text>
+  <text x="124" y="212" font-family="monospace" font-size="9" fill="#d4d4d4">(</text>
+  <text x="132" y="212" font-family="monospace" font-size="9" fill="#569cd6">int </text>
+  <text x="156" y="212" font-family="monospace" font-size="9" fill="#9cdcfe">j</text>
+  <text x="163" y="212" font-family="monospace" font-size="9" fill="#d4d4d4">=</text>
+  <text x="171" y="212" font-family="monospace" font-size="9" fill="#b5cea8">0</text>
+  <text x="178" y="212" font-family="monospace" font-size="9" fill="#d4d4d4">; j&lt;a.length-i-</text>
+  <text x="286" y="212" font-family="monospace" font-size="9" fill="#b5cea8">1</text>
+  <text x="293" y="212" font-family="monospace" font-size="9" fill="#d4d4d4">; j++)</text>
+
+  <text x="64" y="226" font-family="monospace" font-size="9" fill="#d4d4d4">                </text>
+  <text x="84" y="226" font-family="monospace" font-size="9" fill="#c586c0">if </text>
+  <text x="101" y="226" font-family="monospace" font-size="9" fill="#d4d4d4">(a[j] &gt; a[j+</text>
+  <text x="187" y="226" font-family="monospace" font-size="9" fill="#b5cea8">1</text>
+  <text x="194" y="226" font-family="monospace" font-size="9" fill="#d4d4d4">]) swap(a, j, j+</text>
+  <text x="314" y="226" font-family="monospace" font-size="9" fill="#b5cea8">1</text>
+  <text x="320" y="226" font-family="monospace" font-size="9" fill="#d4d4d4">);</text>
+
+  <text x="64" y="240" font-family="monospace" font-size="9" fill="#d4d4d4">    }</text>
+  <text x="64" y="254" font-family="monospace" font-size="9" fill="#d4d4d4">}</text>
+
+  <!-- Terminal panel -->
+  <rect x="18" y="235" width="564" height="69" fill="#1a1a1a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="18" y="235" width="564" height="18" fill="#2d2d2d"/>
+  <text x="30" y="247" font-family="monospace" font-size="8" fill="#f0a500">TERMINAL</text>
+  <text x="100" y="247" font-family="monospace" font-size="8" fill="#6a6a6a">PROBLEMS  OUTPUT</text>
+  <text x="30" y="264" font-family="monospace" font-size="9" fill="#4ec9b0">$ javac Main.java &amp;&amp; java Main</text>
+  <text x="30" y="277" font-family="monospace" font-size="9" fill="#d4d4d4">Sorted: [1, 2, 3, 5, 7, 8, 9]</text>
+  <text x="30" y="290" font-family="monospace" font-size="9" fill="#d4d4d4">Fibonacci(10): 0 1 1 2 3 5 8 13 21 34</text>
+  <text x="30" y="298" font-family="monospace" font-size="9" fill="#28c840">BUILD SUCCESSFUL</text>
+  <rect x="30" y="292" width="6" height="8" rx="1" fill="#d4d4d4" opacity="0.7"/>
+</svg>
