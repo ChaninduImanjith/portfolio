@@ -599,3 +599,64 @@
     }
 
     .btn-cv:active { transform: translateY(-1px); }
+
+    /* ══════════════════════════════════════════
+       PROJECT COMPLETED BADGE
+    ══════════════════════════════════════════ */
+    .project-badge {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.3rem 0.75rem;
+      background: rgba(10, 20, 14, 0.82);
+      border: 1px solid rgba(34, 197, 94, 0.45);
+      color: #22c55e;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.67rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      border-radius: 100px;
+      backdrop-filter: blur(10px);
+      z-index: 3;
+      box-shadow: 0 2px 14px rgba(34, 197, 94, 0.12), inset 0 1px 0 rgba(255,255,255,0.05);
+      transition: transform 0.35s cubic-bezier(0.34,1.56,0.64,1),
+                  box-shadow 0.3s ease,
+                  border-color 0.3s ease;
+      animation: badgePop 0.55s cubic-bezier(0.34,1.56,0.64,1) both;
+      white-space: nowrap;
+    }
+
+    .project-badge::before {
+      content: '';
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      background: #22c55e;
+      border-radius: 50%;
+      flex-shrink: 0;
+      box-shadow: 0 0 0 2px rgba(34,197,94,0.2);
+      animation: badgeDotPulse 2.2s ease-in-out infinite;
+    }
+
+    .project-card:hover .project-badge {
+      transform: translateY(-2px) scale(1.06);
+      border-color: rgba(34, 197, 94, 0.7);
+      box-shadow: 0 6px 22px rgba(34, 197, 94, 0.28), inset 0 1px 0 rgba(255,255,255,0.08);
+    }
+
+    /* Entrance pop animation */
+    @keyframes badgePop {
+      0%   { opacity: 0; transform: scale(0.55) translateY(-6px); }
+      70%  { opacity: 1; transform: scale(1.08) translateY(1px); }
+      100% { opacity: 1; transform: scale(1) translateY(0); }
+    }
+
+    /* Dot heartbeat */
+    @keyframes badgeDotPulse {
+      0%, 100% { box-shadow: 0 0 0 2px rgba(34,197,94,0.2); }
+      50%       { box-shadow: 0 0 0 5px rgba(34,197,94,0.0), 0 0 8px rgba(34,197,94,0.6); }
+    }
