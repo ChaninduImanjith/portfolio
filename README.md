@@ -6,7 +6,7 @@ A modern, responsive personal portfolio website built with HTML, CSS, and JavaSc
 
 ## 🔗 Live Demo
 
-👉 [https://chanindu-imanjith.netlify.app](https://chanindu-imanjith.netlify.app)
+👉 [https://chanindu-portfolio.netlify.app](https://chanindu-portfolio.netlify.app)
 
 ---
 
